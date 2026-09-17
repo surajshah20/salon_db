@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Update these credentials with your local PostgreSQL details
+
 const pool = new Pool({
   user: 'postgres', 
   host: 'localhost',

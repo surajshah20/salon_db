@@ -84,7 +84,7 @@ function App() {
       {/* Available Services List */}
       <section style={{ border: '1px solid #ccc', padding: '15px', marginBottom: '20px' }}>
         <h2>Available Services</h2>
-        <ul>
+        <ul style={{ listStyleType: 'none', padding: 0, textAlign: 'center' }}>
           {services.map(s => (
             <li key={s.id} style={{ marginBottom: '10px' }}>
               <strong>{s.name}</strong> - NPR {s.price} ({s.duration} mins) 

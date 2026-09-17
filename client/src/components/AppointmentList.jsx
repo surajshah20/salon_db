@@ -39,4 +39,4 @@ function AppointmentList({ appointments, updateStatus }) {
   );
 }
 
-export default AppointmentList;
+export default AppointmentList; 
